@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+const acceptFile = (accept) => {
+  console.log('accept', accept)
+}
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,7 +15,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-
+        <form>
+          <input type='file' onChange={(e) => acceptFile(e.target.files[0])} />
+        </form>
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
