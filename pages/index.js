@@ -3,10 +3,11 @@ import styles from '../styles/Home.module.css'
 import FCS from 'fcs'
 const acceptFile = (file) => {
   const reader = new FileReader()
-
+  console.log('file just upload', file)
   reader.onabort = () => console.log('file reading was aborted')
   reader.onerror = () => console.log('file reading has failed')
   reader.onload = () => {
+    console.log('file on load')
   // Do whatever you want with the file contents
     // console.log('reader', reader)
     // arrayBuffer
@@ -30,7 +31,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js! 2</a>
+          Welcome to <a href="https://nextjs.org">Next.js! 3</a>
         </h1>
         <form>
           <input type='file' onChange={(e) => acceptFile(e.target.files[0])} />
