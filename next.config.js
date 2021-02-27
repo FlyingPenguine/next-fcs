@@ -1,8 +1,3 @@
-const pathPrefix = process.env.NODE_ENV === 'production' ? '/test-fcs' : ''
+const prod = process.env.NODE_ENV === 'production'
 
-module.exports = {
-  assetPrefix: pathPrefix,
-  env: {
-    pathPrefix
-  }
-}
+module.exports = { 'process.env.BACKEND_URL': prod ? '/next-fcs' : '' }
