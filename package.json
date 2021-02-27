@@ -2,6 +2,7 @@
   "name": "next-fcs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://flyingpenguine.github.io/next-fcs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
