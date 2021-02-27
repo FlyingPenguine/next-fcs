@@ -1,7 +1,24 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-const acceptFile = (accept) => {
-  console.log('accept', accept)
+import FCS from 'fcs'
+const acceptFile = (file) => {
+  const reader = new FileReader()
+
+  reader.onabort = () => console.log('file reading was aborted')
+  reader.onerror = () => console.log('file reading has failed')
+  reader.onload = () => {
+  // Do whatever you want with the file contents
+    // console.log('reader', reader)
+    // arrayBuffer
+    const binaryStr = reader.result
+    // console.log('binaryStr', binaryStr)
+    const buffer = Buffer.from(binaryStr, 'binary')
+    // console.log('buffer', buffer)
+    const FCSfile = new FCS({}, buffer)
+    console.log('FCSfile', FCSfile)
+  }
+  console.log('file', file)
+  reader.readAsArrayBuffer(file)
 }
 export default function Home() {
   return (
