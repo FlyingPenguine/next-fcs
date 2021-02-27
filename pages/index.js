@@ -24,13 +24,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App 1</title>
+        <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js! 1</a>
         </h1>
         <form>
           <input type='file' onChange={(e) => acceptFile(e.target.files[0])} />
