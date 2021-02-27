@@ -35,6 +35,7 @@ export default function Home() {
         </h1>
         <form>
           <input type='file' onChange={(e) => acceptFile(e.target.files[0])} />
+          <input type='text' onChange={(e) => console.log(e.target.value)} />
         </form>
         <p className={styles.description}>
           Get started by editing{' '}
