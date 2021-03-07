@@ -11,9 +11,8 @@ module.exports = {
   env: {
     pathPrefix
   },
-  config: {
-    optimization: {
-      minimize: false
-    }
+  webpack (config, options) {
+    config.optimization.minimizer = []
+    return config
   }
 }
