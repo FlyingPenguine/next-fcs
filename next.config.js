@@ -10,5 +10,10 @@ module.exports = {
   basePath: pathPrefix,
   env: {
     pathPrefix
+  },
+  config: {
+    optimization: {
+      minimize: false
+    }
   }
 }
