@@ -3,9 +3,9 @@ const pathPrefix = process.env.NODE_ENV === 'production'
     : '';
 
 // NOTE: see https://github.com/vercel/next.js/issues/7625
-const withTM = require('next-transpile-modules')
+// const withTM = require('next-transpile-modules')
 
-module.exports = withTM({
+module.exports = {
   assetPrefix: pathPrefix,
   basePath: pathPrefix,
   env: {
@@ -16,4 +16,4 @@ module.exports = withTM({
       minimize: false
     }
   }
-})
+}
