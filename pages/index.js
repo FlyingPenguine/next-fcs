@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import FCS from 'fcs'
+import FCS from '@amazyyy/fcs'
 const acceptFile = (file) => {
   const reader = new FileReader()
   console.log('file just upload', file)
