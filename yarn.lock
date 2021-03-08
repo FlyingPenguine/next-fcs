@@ -942,6 +942,11 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
+fcs@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/fcs/-/fcs-0.1.2.tgz#020edee92f95445afb37f9146d47f3099f91abd9"
+  integrity sha512-J/znXambWygm0G28znesqCyLvrdzNR8iPDNNBJmYmqekKjsbi9WW5X3jb3heFrVIWbdrzs+P1L7+IrwSnUQb8Q==
+
 fill-range@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
