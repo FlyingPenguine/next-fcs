@@ -10,7 +10,7 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@amazyyy/fcs": "^0.2.1",
+    "@amazyyy/fcs": "^0.2.2",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",

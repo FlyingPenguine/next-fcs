@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@amazyyy/fcs@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@amazyyy/fcs/-/fcs-0.2.1.tgz#c2b9ebdd9d04a8a2abdd99218e61c6ba8bbe0d8e"
-  integrity sha512-DyRgJPt6YbKIxL13RW+6FaWZoGIqvySCgeZVR663HUhKdJhfPdqjHbbv9hi3T6FMl7Q7aYX/Ulu1HC4AghXrEA==
+"@amazyyy/fcs@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@amazyyy/fcs/-/fcs-0.2.2.tgz#854126f6f94571aedd2108a93b4ed1225d523cd3"
+  integrity sha512-PqUE5TydtneJdKmL8T7hOMe3fMNJKA93QRLbb6R/+kFMscr5AkxWp7A7J3hvOrz6IRTMd49cwDAI4Z25xnk7MA==
   dependencies:
     core-js "^3.8.3"
 
