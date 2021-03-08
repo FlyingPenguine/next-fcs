@@ -31,7 +31,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!heyyyyy</a>
+          Welcome to <a href="https://nextjs.org">Next.jssss</a>
         </h1>
         <form>
           <input type='file' onChange={(e) => acceptFile(e.target.files[0])} />
